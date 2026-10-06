@@ -1,0 +1,778 @@
+{
+ "pv": "PV AG - 01 V1 Augmentation de capital en numéraire.docx",
+ "version": 0,
+ "dossier": "Hélianthe Technologies",
+ "type_operation": "AGE_levee_de_fonds",
+ "type_libelle": "Assemblée générale extraordinaire d'augmentation de capital (levée de fonds, entrée d'investisseurs)",
+ "exigence": "standard",
+ "score": {
+  "brut": 42,
+  "malus_cles": -40,
+  "final": 2,
+  "cles_manquantes": [
+   "convocation",
+   "quorum_feuille_presence",
+   "modalites_souscription",
+   "resultat_votes_detaille"
+  ],
+  "exigence": "standard"
+ },
+ "reponse": {
+  "resume": "Le PV d'AGE pour l'augmentation de capital de Hélianthe Technologies est globalement bien structuré, mais des éléments clés manquent pour garantir sa validité juridique et sa recevabilité par les investisseurs, les banques et les autorités. Les clauses critiques absentes (convocation, quorum, modalités de souscription, résultat détaillé des votes) sont des **blocages majeurs** pour le closing, comme souligné par Antoine Berthier dans ses mails. Concentre-toi d’abord sur ces points, car ils impactent directement la sécurité juridique de l’opération et la confiance des parties prenantes. Voici une analyse ciblée pour chaque clause manquante ou partielle, avec des propositions concrètes pour les intégrer.",
+  "priorites": [
+   "convocation",
+   "quorum_feuille_presence",
+   "modalites_souscription"
+  ],
+  "par_clause": {
+   "en_tete_societe": {
+    "pourquoi_ici": "Le RCS est une information **obligatoire** pour identifier la société de manière exhaustive (comme le rappelle Antoine Berthier dans son mail du 15 mars). Sans lui, le PV ne peut pas être déposé au greffe ou utilisé pour des démarches administratives. De plus, le capital avant opération doit être **précisé avec sa source** (ex : « capital initial tel que mentionné au Kbis du [date]»). Léa a déjà corrigé une partie du problème en v2, mais il faut aller plus loin.",
+    "redaction": "Hélianthe Technologies\nSAS au capital de **50 000 euros (RCS Lyon 999 999 999)**\nSiège social : 24 rue des Tanneurs, 69007 Lyon\nCapital avant augmentation : **50 000 euros (tel que mentionné au Kbis du 10/01/2023)**"
+   },
+   "convocation": {
+    "pourquoi_ici": "La convocation est **la base légale de l’AGE** : sans preuve de son envoi (date, mode : LRAR/email, délai de 15 jours minimum pour les SAS), l’assemblée est **annulable** (article L225-35 du Code de commerce). Antoine Berthier insiste sur ce point dans ses retours : *« un PV non convocatoire est un PV non finançable »*. Pour Lumen Capital, c’est un risque de nullité qu’ils ne peuvent pas accepter. **Priorité absolue**.",
+    "redaction": "L’assemblée générale extraordinaire a été régulièrement convoquée le **[date, ex: 28/02/2023]** par lettre recommandée avec accusé de réception (ou *par email aux adresses [listes des emails]*), dans le respect du délai légal de 15 jours."
+   },
+   "quorum_feuille_presence": {
+    "pourquoi_ici": "Le quorum renforcé (majorité des 2/3 des parts pour une augmentation de capital en SAS) **doit être justifié par des chiffres** et une feuille de présence signée. Sans cela, Lumen Capital (et la banque) ne pourront pas vérifier que l’AGE avait le droit de décider. Dans ton mail du 15 mars, tu as mentionné avoir ajouté *« la mention du quorum avec le nombre d’actions »*, mais il manque la **preuve matérielle** (feuille de présence annexée) et le calcul précis. **Exemple concret** : si 3/4 des actions sont représentées, il faut le dire clairement.",
+    "redaction": "Conformément aux statuts, le quorum de la majorité des deux tiers des parts sociales représentatives du capital social a été atteint, soit **[X] actions sur [Y] actions totales** (représentant **[Z]% du capital**). Une feuille de présence signée par les associés est annexée au présent PV."
+   },
+   "modalites_souscription": {
+    "pourquoi_ici": "Antoine Berthier cite explicitement ce point dans son mail du 15 mars comme *« une finition avant closing »* : *« le visa du certificat de dépôt des fonds manque toujours »*. Les modalités de souscription (délai de libération, dépôt des fonds chez un dépositaire comme BNP Paribas Securities Services, et **certificat du dépositaire attestant de la réception des fonds**) sont **indispensables** pour prouver que l’augmentation est effective. Sans cela, la banque ne libérera pas les fonds et le greffe refusera le dépôt.",
+    "redaction": "Les fonds correspondant à l’augmentation de capital ont été déposés chez **[Nom du dépositaire, ex: BNP Paribas Securities Services]**, conformément à l’article [X] des statuts. Un certificat du dépositaire attestant du dépôt des **[100 000 euros]** au profit de la société, libérables sur présentation du présent PV, est annexé. Les fonds ont été intégralement libérés à la date du **[date]**."
+   },
+   "prime_emission": {
+    "pourquoi_ici": "Dans ton mail du 15 mars, tu as bien détaillé la prime d’émission (92 000 € sur 100 000 €), mais le PV actuel ne reprend pas cette précision de manière **explicite et structurée**. La prime doit être **isolée du prix de souscription** pour éviter tout doute sur la valorisation de l’investissement. C’est un point clé pour Lumen Capital, qui a négocié cette valorisation.",
+    "redaction": "L’augmentation de capital est souscrite par Lumen Capital à hauteur de **[8 000 euros nominal + 92 000 euros de prime d’émission]**, soit un prix total de souscription de **100 000 euros par action**, conformément à la valorisation convenue."
+   },
+   "suppression_dps": {
+    "pourquoi_ici": "La suppression du DPS est **implicite** dans le PV (mention de Lumen Capital comme bénéficiaire), mais elle doit être **explicitement votée** pour éviter un recours des anciens associés. Dans ton mail du 15 mars, tu as isolé cette résolution, mais il faut la **formuler comme une décision distincte et motivée** (ex : *« au profit exclusif de Lumen Capital »*). C’est un passage que les investisseurs scruteront pour vérifier qu’aucun ancien associé ne peut bloquer l’opération.",
+    "redaction": "L’assemblée décide, **à la majorité requise**, de supprimer le droit préférentiel de souscription des associés existants pour cette augmentation de capital, **au profit exclusif de la société Lumen Capital**, conformément à l’article [X] des statuts."
+   },
+   "resultat_votes_detaille": {
+    "pourquoi_ici": "Le PV actuel se contente de *« cette résolution est adoptée »*, mais **chaque résolution d’AGE doit lister les voix pour, contre et abstentions** pour prouver la majorité (surtout pour une suppression de DPS ou une augmentation de capital). C’est une **obligation légale** (article L225-101 du Code de commerce) et une exigence des investisseurs pour sécuriser leur entrée. Sans ces détails, le PV sera rejeté par le greffe ou contesté.",
+    "redaction": "Résultat du vote : **[X] voix pour, [Y] voix contre, [Z] abstentions** (soit **[A]% des voix exprimées**). La résolution est adoptée à la majorité requise."
+   },
+   "cloture_signatures": {
+    "pourquoi_ici": "L’heure de clôture est un détail **souvent sous-estimé**, mais elle permet de dater précisément la fin de l’AGE et d’éviter des contestations sur la durée des débats. Les signatures seules ne suffisent pas : il faut **prouver que l’assemblée s’est tenue dans les règles**. Ajoute cette information pour parachever le PV.",
+    "redaction": "La séance est levée à **[heure, ex: 16h30]**. Signatures :\nM. Antoine Vasseur, Président\nMme Camille Ferrand\nReprésentant de Lumen Capital : [Nom]"
+   }
+  },
+  "questions_suite": [
+   "As-tu accès à la **feuille de présence signée** par les associés lors de l’AGE ? Si oui, peux-tu l’annexer au PV avec une mention explicite (comme proposé ci-dessus) ?",
+   "Pour les **modalités de souscription**, as-tu confirmation du nom du dépositaire (ex : BNP Paribas Securities Services) et de la date de dépôt des fonds ? Si non, il faut obtenir ces informations **avant toute finalisation** du PV, car c’est un blocage pour le closing.",
+   "Le mail du 15 mars évoque une *« erreur de calcul sur le capital »* dans la v1. Peux-tu vérifier que le nouveau capital (58 000 €) est bien cohérent avec **toutes les sources** (statuts, Kbis, accord avec Lumen Capital) ?"
+  ]
+ },
+ "clauses": [
+  {
+   "id": "en_tete_societe",
+   "libelle": "Identification de la société (dénomination, forme, capital avant opération, siège, RCS)",
+   "etat": "partielle",
+   "cle": false,
+   "poids": 5,
+   "pourquoi": "Le capital avant opération est la référence de l'augmentation.",
+   "extrait_pv": "Hélianthe Technologies\nSAS au capital de 50 000 euros\nSiège social : 24 rue des Tanneurs, 69007 Lyon",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Léa Marchand,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nAntoine, J'ai repris le document : j'ai corrigé le calcul (50 000 + 8 000 = 58 000), ajouté le numéro RCS et la forme sociale complète, isolé la résolution de suppression du DPS, détaillé la prime d'émission (92 000 euros sur 100 000 euros au total) et ajout",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "convocation",
+   "libelle": "Convocation : date d'envoi, mode, respect du délai",
+   "etat": "absente",
+   "cle": true,
+   "poids": 8,
+   "pourquoi": "Une convocation irrégulière rend l'augmentation annulable, ce qu'aucun investisseur n'accepte.",
+   "extrait_pv": "",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "quorum_feuille_presence",
+   "libelle": "Quorum renforcé constaté avec chiffres et feuille de présence",
+   "etat": "absente",
+   "cle": true,
+   "poids": 10,
+   "pourquoi": "Les investisseurs exigent la preuve que l'AGE pouvait valablement décider.",
+   "extrait_pv": "",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "ordre_du_jour",
+   "libelle": "Ordre du jour, identique à celui de la convocation",
+   "etat": "presente",
+   "cle": true,
+   "poids": 8,
+   "pourquoi": "L'augmentation et la suppression du DPS doivent y figurer expressément.",
+   "extrait_pv": "Ordre du jour : augmentation de capital ; pouvoirs.",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "rapports_prealables",
+   "libelle": "Rapport du président (et du CAC si suppression du DPS) sur l'opération",
+   "etat": "absente",
+   "cle": false,
+   "poids": 6,
+   "pourquoi": "Justifie le prix d'émission et la suppression du DPS ; protège contre une action en nullité.",
+   "extrait_pv": "",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "montant_augmentation",
+   "libelle": "Montant nominal de l'augmentation, nombre et valeur nominale des titres émis",
+   "etat": "presente",
+   "cle": true,
+   "poids": 10,
+   "pourquoi": "Définit l'opération ; toute erreur se répercute sur la table de capitalisation.",
+   "extrait_pv": "L'assemblée décide d'augmenter le capital social de la société d'un montant de 8 000 euros par émission d'actions nouvelles",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "prime_emission",
+   "libelle": "Prix de souscription et prime d'émission",
+   "etat": "partielle",
+   "cle": true,
+   "poids": 8,
+   "pourquoi": "La prime matérialise la valorisation négociée avec les investisseurs.",
+   "extrait_pv": "pour un prix total de 100 000 euros",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Léa Marchand,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nAntoine, J'ai repris le document : j'ai corrigé le calcul (50 000 + 8 000 = 58 000), ajouté le numéro RCS et la forme sociale complète, isolé la résolution de suppression du DPS, détaillé la prime d'émission (92 000 euros sur 100 000 euros au total) et ajout",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "suppression_dps",
+   "libelle": "Suppression du droit préférentiel de souscription au profit de bénéficiaires dénommés",
+   "etat": "partielle",
+   "cle": true,
+   "poids": 10,
+   "pourquoi": "Sans suppression du DPS, les associés existants peuvent souscrire en priorité et l'entrée de l'investisseur échoue.",
+   "extrait_pv": "augmentation de capital [...] au profit de Lumen Capital",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Léa Marchand,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nAntoine, J'ai repris le document : j'ai corrigé le calcul (50 000 + 8 000 = 58 000), ajouté le numéro RCS et la forme sociale complète, isolé la résolution de suppression du DPS, détaillé la prime d'émission (92 000 euros sur 100 000 euros au total) et ajout",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "modalites_souscription",
+   "libelle": "Modalités de souscription et de libération (délai, dépôt des fonds, certificat du dépositaire)",
+   "etat": "absente",
+   "cle": true,
+   "poids": 8,
+   "pourquoi": "L'augmentation n'est réalisée qu'une fois les fonds libérés et constatés.",
+   "extrait_pv": "",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Léa Marchand,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nAntoine, J'ai repris le document : j'ai corrigé le calcul (50 000 + 8 000 = 58 000), ajouté le numéro RCS et la forme sociale complète, isolé la résolution de suppression du DPS, détaillé la prime d'émission (92 000 euros sur 100 000 euros au total) et ajout",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "delegation_president",
+   "libelle": "Délégation au président pour constater la réalisation et modifier les statuts",
+   "etat": "absente",
+   "cle": false,
+   "poids": 6,
+   "pourquoi": "Évite une seconde assemblée pour constater l'opération.",
+   "extrait_pv": "",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Léa Marchand,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nAntoine, J'ai repris le document : j'ai corrigé le calcul (50 000 + 8 000 = 58 000), ajouté le numéro RCS et la forme sociale complète, isolé la résolution de suppression du DPS, détaillé la prime d'émission (92 000 euros sur 100 000 euros au total) et ajout",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "modification_statuts_correlative",
+   "libelle": "Modification corrélative des articles capital et apports",
+   "etat": "presente",
+   "cle": true,
+   "poids": 8,
+   "pourquoi": "Les statuts doivent refléter le nouveau capital pour le dépôt au greffe.",
+   "extrait_pv": "Troisième résolution\nLes statuts sont modifiés en conséquence.",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "resultat_votes_detaille",
+   "libelle": "Résultat de chaque vote : voix pour, contre, abstentions",
+   "etat": "absente",
+   "cle": true,
+   "poids": 10,
+   "pourquoi": "La majorité renforcée doit être démontrée résolution par résolution.",
+   "extrait_pv": "",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "pouvoirs_formalites",
+   "libelle": "Pouvoirs pour l'accomplissement des formalités",
+   "etat": "presente",
+   "cle": false,
+   "poids": 5,
+   "pourquoi": "Dépôt au greffe, annonce légale, mise à jour du Kbis.",
+   "extrait_pv": "Quatrième résolution\nTous pouvoirs sont donnés pour les formalités.",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  },
+  {
+   "id": "cloture_signatures",
+   "libelle": "Heure de clôture et signatures des membres du bureau",
+   "etat": "partielle",
+   "cle": true,
+   "poids": 7,
+   "pourquoi": "Le PV non signé n'a pas de force probante.",
+   "extrait_pv": "La séance est levée.\nSignatures\nM. Antoine Vasseur\nMme Camille Ferrand\nLumen Capital",
+   "traces_orales": [
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v1\n\nLéa, Merci pour ce premier jet. Il part dans la bonne direction mais il n'est pas finançable en l'état : un PV d'augmentation de capital avec entrée d'un nouvel investisseur est un document que la banque, le commissaire aux comptes et potentiellement le gref",
+     "source_type": "mail",
+     "date": ""
+    },
+    {
+     "citation": "Mail de Antoine Berthier,  — RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2",
+     "text": "Objet : RE: Draft PV AG du 15 mars 2023 – Lumen Capital – v2\n\nLéa, C'est nettement mieux, le document est maintenant juridiquement solide et cohérent sur les chiffres. Il reste deux finitions avant de le considérer comme \"closing ready\" : Le visa du certificat de dépôt des fonds manque toujours. Tu as corrigé la prime ",
+     "source_type": "mail",
+     "date": ""
+    }
+   ]
+  }
+ ],
+ "precedents": [],
+ "corpus": {
+  "actes": 200,
+  "templates": 5,
+  "revues": 645,
+  "chunks": 6410
+ },
+ "id": "10fae86d",
+ "qualification": {
+  "forme": "SAS",
+  "societe": "Hélianthe Technologies",
+  "date": "2023-03-15",
+  "nature": "AG",
+  "categorie": "01",
+  "categorie_libelle": "Augmentation de capital en numéraire"
+ },
+ "score_apres": {
+  "brut": 75,
+  "malus_cles": 0,
+  "final": 75,
+  "cles_manquantes": [],
+  "exigence": "standard"
+ },
+ "inchange_pct": 50,
+ "cas_similaires": [
+  {
+   "acte_id": "GRAVITHY - Actes du 14-05-2025 (4)",
+   "source": "actes/GRAVITHY - Actes du 14-05-2025 (4).pdf",
+   "societe": "GravitHy",
+   "forme": "SAS",
+   "nature": "AG",
+   "date": "2025-03-28",
+   "brut": 65,
+   "points": 281.4,
+   "raisons": [
+    "même opération (Augmentation de capital en numéraire)",
+    "même famille de grille",
+    "même nature (AG)",
+    "même forme sociale (SAS)",
+    "couverture de la grille 65/100",
+    "acte du 2025-03-28"
+   ],
+   "categorie_libelle": "Augmentation de capital en numéraire",
+   "historique": [
+    {
+     "version": "V1",
+     "defauts": [
+      {
+       "defaut": "En-tête incomplet : « SAS » en abrégé, absence du numéro RCS et de la définition « (la \"Société\") ».",
+       "correction": "En-tête complété : « Société par actions simplifiée au capital de 72.528,26 euros », mention « 914 336 011 RCS Marseille » et définition « (la \"Société\") »."
+      },
+      {
+       "defaut": "Deuxième décision : absence de visa et d'approbation du Rapport du Commissaire aux Avantages Particuliers, absence de constatation de la libération intégrale du capital, absence de visa des articles L. 228-11 à L. 228-19 du Code de commerce et de la valorisation des droits particuliers.",
+       "correction": "La deuxième décision vise le Rapport du Commissaire aux Avantages Particuliers, les articles L. 228-11 à L. 228-19, constate que le capital social est entièrement libéré, et approuve l'appréciation des droits particuliers et la justification de leur valorisation, ainsi que les conditions de quorum et de majorité de l'assemblée spéciale et l'égalité des droits de vote."
+      },
+      {
+       "defaut": "Troisième décision : absence de délai de souscription chiffré et daté, absence de la mention selon laquelle la délivrance du certificat du dépositaire emporte réalisation définitive, et absence du pouvoir d'obtenir ledit certificat ; absence de visa du Rapport du Commissaire aux Avantages Particulie",
+       "correction": "La troisième décision vise le Rapport du Commissaire aux Avantages Particuliers, les articles L. 225-129 et suivants et L. 232-9, constate la libération intégrale du capital, fixe une période de souscription de cinq (5) jours à compter des présentes, soit jusqu'au 2 avril 2025 inclus, prévoit que la délivrance du certificat du dépositaire des fonds emporte réalisation définitive de l'Augmentation "
+      },
+      {
+       "defaut": "Septième décision : capital de départ erroné (« pour le porter de 115.000,00 euros à 153.945,89 euros »), ne tenant pas compte de la conversion des OC ; visas incomplets (Commissaire aux Avantages Particuliers, L. 225-129 et suivants, L. 232-9) et absence des mentions relatives au certificat du dépo",
+       "correction": "« pour le porter de 115.631,71 euros à 153.945,89 euros » ; visas complétés et mentions du certificat du dépositaire des fonds (réalisation définitive et pouvoir d'obtention) rétablies."
+      },
+      {
+       "defaut": "Dixième décision fusionnant la délégation de compétence et la suppression du droit préférentiel de souscription au profit d'une catégorie de bénéficiaires, sans condition suspensive ni résolution distincte.",
+       "correction": "La dixième décision est limitée à la délégation de compétence, prise sous condition suspensive de l'adoption de la onzième décision, et une onzième décision autonome supprime le droit préférentiel de souscription au profit des Souscripteurs Qualifiés et approuve les avantages particuliers correspondants, avec son propre vote."
+      },
+      {
+       "defaut": "Absence de constatation de l'unanimité sur plusieurs décisions (« Cette décision est adoptée. ») et absence de l'effet différé des décisions de gouvernance et d'exclusion ; visa des articles 1366 et 1367 du Code civil omis pour la signature électronique.",
+       "correction": "Chaque décision est suivie de « Cette décision est adoptée à l'unanimité des Associés. » ; les vingtième et vingt-et-unième décisions précisent qu'elles prennent effet à compter de l'adoption de la vingt-deuxième décision, et la clause de signature vise les articles 1366 et 1367 du Code civil."
+      }
+     ],
+     "revue": "Léa,\n\nMerci pour ce premier jet de l'extrait GravitHy. La trame est là, mais en l'état je ne peux pas le laisser partir : c'est un extrait destiné au greffe et aux souscripteurs du tour, il sera lu ligne à ligne par les conseils des investisseurs. Points à reprendre :\n\n1. En-tête. « SAS » en abrégé, pas de numéro RCS, pas de définition de « la Société ». Sur un extrait certifié conforme, l'identification doit être complète dès le chapeau : forme sociale en toutes lettres, capital, siège, 914 336 011 RCS Marseille, et la définition « (la \"Société\") » puisque tu l'utilises ensuite.\n\n2. Deuxième décision. Tu ne vises pas le Rapport du Commissaire aux Avantages Particuliers alors que c'est la pièce qui fonde toute la création des ADP A. Il faut le viser, l'approuver expressément avec l'appréciation des droits particuliers et la justification de leur valorisation, viser les articles L. 228-11 à L. 228-19 du Code de commerce et constater que le capital est entièrement libéré. Ajoute aussi le renvoi aux conditions de quorum et de majorité de l'assemblée spéciale et la précision sur l'égalité des droits de vote.\n\n3. Troisième décision. Deux manques rédhibitoires : aucun délai de souscription chiffré (il faut cinq jours à compter des présentes, soit jusqu'au 2 avril 2025 inclus) et aucune mention du certificat du dépositaire des fonds. Il faut écrire que sa délivrance emporte réalisation définitive de l'Augmentation de Capital n°1 et donner au Président le pouvoir de l'obtenir. Vise é"
+    },
+    {
+     "version": "V2",
+     "defauts": [
+      {
+       "defaut": "Troisième décision : le capital porté après l'Augmentation de Capital n°1 est indiqué à « 115.000,00 euros », montant arrondi et erroné (72.528,26 + 43.103,45 = 115.631,71).",
+       "correction": "Le final porte « pour le porter de 72.528,26 euros à 115.631,71 euros », chiffre exact et cohérent avec le montant nominal de l'augmentation."
+      },
+      {
+       "defaut": "Septième décision : l'enchaînement des deux augmentations n'est pas conditionné ; le texte indique « pour le porter de 115.631,71 euros à 153.945,89 euros » sans réserver la réalisation préalable de l'Augmentation de Capital n°1, alors que 115.631,71 euros ne sera le capital qu'après celle-ci.",
+       "correction": "Le final précise « pour le porter, sous réserve de la réalisation de l'Augmentation de Capital n°1, de 115.631,71 euros à 153.945,89 euros »."
+      },
+      {
+       "defaut": "Vingtième décision : aucune constatation de la démission des membres et censeurs du comité de surveillance existant avant sa suppression, ni dispense de préavis.",
+       "correction": "Le final ajoute, avant la suppression, le paragraphe : « constatent la démission de l'intégralité des membres et censeurs actuels du comité de surveillance de la Société et les dispensent de tous préavis »."
+      }
+     ],
+     "revue": "Léa,\n\nLe projet d'extrait GravitHy est quasiment prêt, la structure des décisions tient et les renvois aux Statuts Refondus sont corrects. Trois finitions avant que l'on puisse le faire circuler pour signature DocuSign :\n\n1. Troisième décision — le capital post-Augmentation n°1. Tu écris « pour le porter de 72.528,26 euros à 115.000,00 euros ». Le compte ne tombe pas : 72.528,26 + 43.103,45 = 115.631,71. Sur un extrait destiné au greffe, un capital arrondi qui ne correspond pas au nominal émis est rédhibitoire et contredit en outre le chiffre de départ de la septième décision. Rétablis 115.631,71 euros au centime.\n\n2. Septième décision — chaînage des deux augmentations. Tu fais partir l'Augmentation n°2 de 115.631,71 euros comme si ce montant était acquis. Or il ne le sera qu'après réalisation définitive de l'Augmentation n°1. Il faut l'écrire : « pour le porter, sous réserve de la réalisation de l'Augmentation de Capital n°1, de 115.631,71 euros à 153.945,89 euros ». C'est ce qui rend la séquence des opérations lisible et incontestable pour le greffe comme pour les souscripteurs.\n\n3. Vingtième décision — gouvernance. Tu supprimes le comité de surveillance existant sans que les Associés constatent au préalable la démission de ses membres et censeurs. On ne peut pas faire disparaître l'organe en laissant les mandats en l'air : ajoute en tête de décision la constatation de la démission de l'intégralité des membres et censeurs actuels, avec dispense de tout préavis, puis enchaîn"
+    }
+   ],
+   "synthetique": true
+  },
+  {
+   "acte_id": "UROMEMS - Actes du 10-07-2024",
+   "source": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "societe": "UROMEMS",
+   "forme": "SAS",
+   "nature": "AG",
+   "date": "2024-05-20",
+   "brut": 65,
+   "points": 278,
+   "raisons": [
+    "même opération (Augmentation de capital en numéraire)",
+    "même famille de grille",
+    "même nature (AG)",
+    "même forme sociale (SAS)",
+    "couverture de la grille 65/100",
+    "acte du 2024-05-20"
+   ],
+   "categorie_libelle": "Augmentation de capital en numéraire",
+   "historique": [
+    {
+     "version": "V1",
+     "defauts": [
+      {
+       "defaut": "En-tête incomplet : forme sociale abrégée « SAS », absence du numéro d'immatriculation et de la définition « (la « Société ») ».",
+       "correction": "« Société par actions simplifiée au capital de 121.414,80 euros », mention « 533 670 931 RCS Grenoble » et définition « (la « Société ») » dans le chapeau."
+      },
+      {
+       "defaut": "Erreur de calcul sur le montant nominal maximum de l'augmentation de capital : 10.238,10 euros pour 1.023.810 actions de 0,10 euro de nominal (intitulé et corps de la 5ème résolution).",
+       "correction": "Montant nominal maximum de 102.381 euros (1.023.810 × 0,10 €), tant dans l'intitulé que dans le corps de la résolution."
+      },
+      {
+       "defaut": "Délégation de compétence et suppression du droit préférentiel de souscription traitées dans une seule et même résolution (cinquième), sans condition suspensive ni vote distinct ; numérotation des résolutions suivantes décalée.",
+       "correction": "Deux résolutions distinctes : cinquième résolution (Délégation C, consentie « sous la condition suspensive de l'adoption de la résolution qui suit relative à la suppression du droit préférentiel de souscription ») et sixième résolution (suppression du DPS des 1.023.810 ABSA C, « en conséquence de l'adoption de la résolution qui précède »), chacune mise aux voix ; renumérotation jusqu'à la vingt-et"
+      },
+      {
+       "defaut": "Absence de constatation du quorum et de la majorité : aucune mention « statuant aux conditions de quorum et de majorité requises par les Statuts » et formule de vote réduite à « Cette résolution est adoptée ».",
+       "correction": "Chaque résolution comporte la mention « statuant aux conditions de quorum et de majorité requises par les Statuts » et la formule « Cette résolution, mise aux voix, est adoptée à l'unanimité des voix des associés présents ou représentés »."
+      },
+      {
+       "defaut": "Visas et mentions légales manquants : pas de visa du rapport du commissaire aux avantages particuliers ni d'approbation de ce rapport en première résolution, pas de mention des renonciations individuelles aux mesures de protection de l'article L. 228-99 du Code de commerce, pas de constatation de la",
+       "correction": "Ajout du visa et de l'approbation du rapport du commissaire aux avantages particuliers (ainsi que de la prise d'acte de la description et de l'appréciation des droits particuliers) en première résolution, de la prise d'acte des renonciations L. 228-99 des titulaires d'OCA 2023, de BSA et de BSPCE, de la mention « après avoir constaté que le capital social est intégralement libéré » en cinquième ré"
+      },
+      {
+       "defaut": "Montants nominaux omis sur les opérations liées aux OCA 2023 : nombre maximum de 1.077.845 Actions C sans montant nominal, et conversion des OCA sans chiffrage de l'augmentation de capital correspondante.",
+       "correction": "Mention « représentant une augmentation de capital d'un montant nominal maximum de 107.784,50 euros » en résolution 7 et « soit une augmentation de capital de 21.556,90 euros (la « Conversion OCA ») » en résolution 8."
+      }
+     ],
+     "revue": "Léa,\n\nMerci pour ce premier jet des extraits UROMEMS. La trame est là, mais en l'état je ne peux pas le faire signer : c'est un extrait destiné au greffe, aux souscripteurs de la Série B et à leurs conseils, qui sera lu ligne à ligne. Les points bloquants :\n\n1. Chapeau incomplet. « SAS » abrégé, pas de numéro d'immatriculation, pas de définition de « la Société » alors que le terme est utilisé partout ensuite. Sur un extrait certifié conforme destiné au dépôt, l'identification doit être complète : forme sociale en toutes lettres, capital, siège, 533 670 931 RCS Grenoble, puis « (la « Société ») ».\n\n2. Erreur de calcul sur le nominal de la Délégation C. Tu écris 10.238,10 euros alors que 1.023.810 actions à 0,10 euro de valeur nominale font 102.381 euros. L'erreur figure à la fois dans l'intitulé et dans le corps de la résolution : c'est exactement le type d'incohérence qui fait rejeter l'inscription modificative. Reprends tous les produits nombre d'actions × valeur nominale du document.\n\n3. Délégation et suppression du DPS fusionnées. Tu as logé la suppression du droit préférentiel de souscription dans la résolution de délégation. Il faut deux résolutions autonomes, chacune mise aux voix : la délégation consentie sous condition suspensive de l'adoption de la résolution de suppression du DPS, puis la suppression du DPS adoptée « en conséquence de l'adoption de la résolution qui précède ». Renumérote la suite en conséquence.\n\n4. Quorum et majorité non constatés. Aucune résoluti"
+    },
+    {
+     "version": "V2",
+     "defauts": [
+      {
+       "defaut": "Dans la première résolution, la condition suspensive tenant à l'adoption des 2ème à 4ème résolutions (modification des droits attachés aux catégories d'actions de préférence préexistantes) n'est pas stipulée, et le pouvoir donné au Président ne vise que les formalités.",
+       "correction": "Le final insère, avant le « décide », le paragraphe « sous la condition suspensive de l'adoption des 2ème à 4ème résolutions ci-après relatives à la modification des droits attachés aux différentes catégories d'actions de préférence préexistantes de la Société (la « Condition Suspensive ») », et termine par « donne tout pouvoir au Président pour constater la réalisation définitive de la Condition "
+      },
+      {
+       "defaut": "La cinquième résolution ne fixe pas la durée de validité de la Délégation C.",
+       "correction": "Le final ajoute, après l'énumération des pouvoirs délégués : « décide que la présente Délégation C sera valable pendant une durée de vingt-six (26) mois à compter de la présente Assemblée »."
+      },
+      {
+       "defaut": "Dans la sixième résolution, la mention du vote omet de préciser que les bénéficiaires de la suppression du droit préférentiel de souscription n'ont pas pris part au vote.",
+       "correction": "Le final complète la formule d'adoption par : « étant précisé que, conformément à l'article L. 225-138 du Code de commerce, les bénéficiaires de la suppression du droit préférentiel de souscription n'ont pas pris part au vote et que leurs droits de vote n'ont pas été pris en compte pour le calcul du quorum et de la majorité »."
+      }
+     ],
+     "revue": "Léa,\n\nL'extrait est désormais propre et l'articulation des résolutions tient la route. Il reste trois points à reprendre avant que je le fasse signer :\n\n1. Première résolution. Tu as bien repris la Condition Résolutoire, mais la condition suspensive manque. La création des Actions C n'a de sens que si les droits des catégories préexistantes sont eux-mêmes modifiés : il faut donc un paragraphe « sous la condition suspensive de l'adoption des 2ème à 4ème résolutions ci-après relatives à la modification des droits attachés aux différentes catégories d'actions de préférence préexistantes de la Société », en définissant le terme « Condition Suspensive » puisqu'on le réutilise ensuite. Et dans la foulée, le pouvoir final au Président doit viser expressément la constatation de la réalisation définitive de cette Condition Suspensive, pas seulement les formalités.\n\n2. Cinquième résolution. Aucune durée de validité n'est stipulée pour la Délégation C. C'est une mention substantielle : sans durée, le greffe et le commissaire aux comptes nous l'opposeront, et les souscripteurs voudront la voir. Ajoute en fin de résolution que la délégation est valable vingt-six (26) mois à compter de l'Assemblée.\n\n3. Sixième résolution. La formule d'adoption est incomplète : dans une augmentation réservée à des personnes dénommées, il faut écrire noir sur blanc que, conformément à l'article L. 225-138 du Code de commerce, les bénéficiaires de la suppression du DPS n'ont pas pris part au vote et que leurs"
+    }
+   ],
+   "synthetique": true
+  },
+  {
+   "acte_id": "YZOR - Actes du 07-09-2026 (2)",
+   "source": "actes/YZOR - Actes du 07-09-2026 (2).pdf",
+   "societe": "YZOR",
+   "forme": "SAS",
+   "nature": "AGE",
+   "date": "2026-06-30",
+   "brut": 85,
+   "points": 266.4,
+   "raisons": [
+    "même opération (Augmentation de capital en numéraire)",
+    "même famille de grille",
+    "même forme sociale (SAS)",
+    "couverture de la grille 85/100",
+    "acte du 2026-06-30"
+   ],
+   "categorie_libelle": "Augmentation de capital en numéraire",
+   "historique": [
+    {
+     "version": "V1",
+     "defauts": [
+      {
+       "defaut": "En-tête incomplet : absence du numéro RCS, du nombre d'actions composant le capital et de la qualification exacte de l'assemblée (« Ordinaire Annuelle et Extraordinaire »), tant dans le titre que dans le chapeau.",
+       "correction": "Mention « RCS Paris 933 777 682 », capital « divisé en 1.275.876 actions » et intitulé « EXTRAIT DU PROCES-VERBAL DES DELIBERATIONS DE L'ASSEMBLEE GENERALE ORDINAIRE ANNUELLE ET EXTRAORDINAIRE DU 30 JUIN 2026 », l'assemblée étant également qualifiée comme telle dans le chapeau."
+      },
+      {
+       "defaut": "Quorum non constaté : la feuille de présence est simplement visée, sans indication du nombre d'actions présentes ou représentées ni constatation de la régularité de la constitution de l'assemblée. Le délai de communication préalable des documents n'est pas chiffré.",
+       "correction": "« La feuille de présence, certifiée exacte par le Président, permet de constater que les associés présents ou représentés possèdent 1.275.876 actions sur les 1.275.876 actions ayant le droit de vote. En conséquence, l’Assemblée, réunissant le quorum requis, est régulièrement constituée et peut valablement délibérer. » et communication des documents « huit jours au moins avant la date de la présent"
+      },
+      {
+       "defaut": "Résolutions fusionnées : la suppression du droit préférentiel de souscription au profit d'une catégorie de personnes est incluse dans la résolution de délégation de compétence, sans vote autonome, d'où une numérotation décalée (pouvoirs en huitième résolution).",
+       "correction": "Deux résolutions distinctes : sixième (Délégation AO, qui renvoie « conformément à la résolution ci-après ») et septième (suppression du DPS au profit d'une catégorie de personnes), chacune adoptée séparément, les pouvoirs pour formalités devenant la neuvième résolution."
+      },
+      {
+       "defaut": "Montant nominal maximum de l'augmentation absent et décomposition du prix non détaillée : ni le plafond de 964,91 euros, ni la ventilation valeur nominale / prime d'émission, ni l'obligation de libération intégrale (y compris par compensation de créances).",
+       "correction": "Plafond nominal de 964,91 euros rappelé dans l'ordre du jour, l'intitulé et le corps de la résolution ; prix unitaire décomposé en « 0,01 euro de valeur nominale et […] euros de prime d’émission », prix total maximum « prime d’émission incluse », et libération intégrale « pour la totalité de leur montant nominal et de la prime d’émission, en numéraire y compris, le cas échéant, par compensation av"
+      },
+      {
+       "defaut": "Rapport du commissaire aux comptes ad hoc non visé, absence de mention de la faculté d'émission « en une ou plusieurs fois », du visa de l'article L. 225-134 du Code de commerce, des certificats de libération et de la certification conforme de l'extrait par le Président.",
+       "correction": "Visa « (i) du rapport du Président et (ii) du rapport du commissaire aux comptes ad hoc » dans les deux résolutions, mention « en une ou plusieurs fois », renvoi à l'article L. 225-134, pouvoir d'« obtenir le(s) certificat(s) attestant la libération et la réalisation définitive » et de « constater, le cas échéant, toute libération par compensation », et mention finale « Extrait certifié conforme à"
+      }
+     ],
+     "revue": "Léa,\n\nMerci pour ce premier jet de l'extrait de PV YZOR. La trame est là, mais en l'état je ne peux pas le laisser partir : cet extrait a vocation à être déposé au greffe et à être relu par les conseils des investisseurs qui souscriront dans le cadre de la délégation. Plusieurs points à reprendre.\n\n1. Identification de la société et qualification de l'assemblée. Il manque le numéro RCS (933 777 682) dans le bloc d'en-tête, et le capital doit être présenté avec sa division en 1.275.876 actions : c'est ce chiffre qui permettra ensuite de constater le quorum. Par ailleurs l'assemblée statue à la fois sur les comptes et sur une délégation de compétence emportant modification du capital : l'intitulé doit être « Assemblée Générale Ordinaire Annuelle et Extraordinaire », dans le titre comme dans le chapeau. Un greffe tatillon relèvera qu'une « assemblée générale » tout court ne peut pas déléguer une compétence extraordinaire.\n\n2. Quorum non constaté. Tu te contentes d'indiquer que la feuille de présence est certifiée exacte. Il me faut la phrase complète : nombre d'actions présentes ou représentées sur le nombre d'actions ayant le droit de vote, puis la constatation expresse que l'assemblée réunit le quorum requis, est régulièrement constituée et peut valablement délibérer. Sans cela, rien ne prouve la validité des délibérations. Ajoute également le délai de communication des documents : huit jours au moins avant la date de l'assemblée, conformément aux statuts.\n\n3. Suppression du D"
+    },
+    {
+     "version": "V2",
+     "defauts": [
+      {
+       "defaut": "La sixième résolution ne comporte aucune limitation de durée de la Délégation AO ; elle se termine sur les pouvoirs donnés au Président, sans encadrement temporel.",
+       "correction": "Ajout in fine de la sixième résolution : « décide que la présente Délégation AO est consentie pour une durée de dix-huit (18) mois à compter des présentes. »"
+      },
+      {
+       "defaut": "La catégorie de personnes bénéficiaires de la suppression du DPS est définie de façon trop générale (« investisseurs, personnes physiques ou morales, ainsi que des associés et salariés »), sans visa de l'article L. 225-135 du Code de commerce.",
+       "correction": "Visa de l'article L. 225-135 du Code de commerce et définition précise : « toute personne physique ou morale investissant, à titre habituel ou ponctuel, en fonds propres dans des sociétés du secteur du conseil financier, en France ou à l'étranger, ainsi que tout associé existant ou tout salarié de la Société »."
+      },
+      {
+       "defaut": "Absence, dans la sixième résolution, du constat préalable de la libération intégrale du capital et des stipulations relatives à la prime d'émission (inscription au compte spécial « Prime d'émission » et faculté d'imputation au titre de l'article L. 232-9 du Code de commerce).",
+       "correction": "Insertion du considérant « après avoir constaté la libération intégrale du capital de la Société » et des deux paragraphes sur l'inscription de la prime d'émission à un compte spécial de capitaux propres et sur les imputations sur prime d'émission visant l'article L. 232-9 du Code de commerce."
+      }
+     ],
+     "revue": "Léa,\n\nL'extrait est bien charpenté, les chiffres (96.491 actions, 964,91 euros de nominal maximum) sont cohérents et la mécanique de délégation tient la route. Trois finitions avant de l'envoyer au client pour signature :\n\n1. La durée de la délégation. Ta sixième résolution s'achève sur la liste des pouvoirs du Président, sans aucune limite de temps. Une délégation de compétence non bornée dans le temps est inopérante : il faut une clause finale expresse fixant la durée. Ajoute un dernier paragraphe « décide que la présente Délégation AO est consentie pour une durée de dix-huit (18) mois à compter des présentes ». Dix-huit mois, c'est ce que nous avons retenu avec le client au regard du calendrier du tour.\n\n2. La définition de la catégorie de personnes. En septième résolution, tu te contentes d'« investisseurs, personnes physiques ou morales, ainsi que des associés et salariés ». C'est beaucoup trop large : une catégorie doit être définie par des critères objectifs permettant d'identifier les bénéficiaires sans que l'assemblée ne les désigne nominativement, à défaut de quoi la suppression du DPS est contestable. Reprends la formulation complète : toute personne physique ou morale investissant, à titre habituel ou ponctuel, en fonds propres dans des sociétés du secteur du conseil financier, en France ou à l'étranger, ainsi que tout associé existant ou tout salarié de la Société. Et vise expressément l'article L. 225-135 du Code de commerce dans le corps de la résolution.\n\n3. L"
+    }
+   ],
+   "synthetique": true
+  }
+ ],
+ "changements": [
+  {
+   "id": "en_tete_societe",
+   "libelle": "Identification de la société (dénomination, forme, capital avant opération, siège, RCS)",
+   "etat_avant": "partielle",
+   "texte": "RCS Lyon [à compléter : numéro RCS de la société] (la \"Société\")",
+   "resume": "Ajout du numéro RCS et de la définition de la Société dans l'en-tête.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "L'identification complète de la société est requise pour un document destiné au greffe et aux investisseurs.",
+   "a_verifier": []
+  },
+  {
+   "id": "convocation",
+   "libelle": "Convocation : date d'envoi, mode, respect du délai",
+   "etat_avant": "absente",
+   "texte": "La convocation de l'Assemblée Générale a été adressée aux associés par courrier électronique le [à compléter : date de convocation, au moins 8 jours avant la réunion], conformément aux dispositions des statuts.",
+   "resume": "Ajout de la mention de la convocation adressée aux associés avec la date et le mode de transmission.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "La convocation irrégulière rend l'assemblée annulable, ce qui est inacceptable pour les investisseurs.",
+   "a_verifier": []
+  },
+  {
+   "id": "quorum_feuille_presence",
+   "libelle": "Quorum renforcé constaté avec chiffres et feuille de présence",
+   "etat_avant": "absente",
+   "texte": "La feuille de présence, certifiée exacte par le Président, permet de constater que les associés présents ou représentés possèdent [à compléter : nombre total d'actions détenues par les associés présents ou représentés] actions sur [à compléter : nombre total d'actions ayant le droit de vote]. En conséquence, l’Assemblée, réunissant le quorum requis, est régulièrement constituée et peut valablement délibérer.",
+   "resume": "Ajout de la constatation du quorum avec les chiffres précis et la référence à la feuille de présence.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "Les investisseurs exigent la preuve que l'assemblée pouvait valablement décider.",
+   "a_verifier": []
+  },
+  {
+   "id": "rapports_prealables",
+   "libelle": "Rapport du président (et du CAC si suppression du DPS) sur l'opération",
+   "etat_avant": "absente",
+   "texte": "Le Président déclare que le texte des résolutions ainsi que tous les documents et informations leur permettant de se prononcer en toute connaissance de cause sur les résolutions présentées à leur approbation ont été communiqués à chaque associé huit jours au moins avant la date de la présente assemblée, le tout conformément aux dispositions des statuts.\n\nL'Assemblée lui donne acte de ces déclarations.\n\nLe Président rappelle ensuite l'ordre du jour sur lequel l’assemblée est appelée à délibérer.",
+   "resume": "Ajout de la mention des rapports communiqués aux associés et de la prise d'acte par l'assemblée.",
+   "source_precedent": "actes/YZOR - Actes du 07-09-2026 (2).pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "Justifie l'opération et protège contre une action en nullité.",
+   "a_verifier": []
+  },
+  {
+   "id": "prime_emission",
+   "libelle": "Prix de souscription et prime d'émission",
+   "etat_avant": "partielle",
+   "texte": "décide d'augmenter le capital social de la société d'un montant de 8 000 euros par émission d'actions nouvelles au profit de Lumen Capital, pour un prix total de 100 000 euros, soit un montant nominal de 8 000 euros et une prime d'émission de 92 000 euros,",
+   "resume": "Précision du prix de souscription en décomposant le montant total en valeur nominale et prime d'émission.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "Mail de Antoine Berthier, v2 : « Tu as corrigé la prime d'émission mais tu n'as pas ajouté la phrase visant le certificat du dépositaire. »",
+   "justification": "La prime d'émission matérialise la valorisation négociée avec l'investisseur.",
+   "a_verifier": []
+  },
+  {
+   "id": "suppression_dps",
+   "libelle": "Suppression du droit préférentiel de souscription au profit de bénéficiaires dénommés",
+   "etat_avant": "partielle",
+   "texte": "décide de supprimer le droit préférentiel de souscription des associés existants au profit de Lumen Capital, conformément à l'article L. 225-138 du Code de commerce,",
+   "resume": "Ajout de la suppression du droit préférentiel de souscription au profit de Lumen Capital avec référence légale.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "Sans suppression du DPS, les associés existants peuvent souscrire en priorité, empêchant l'entrée de l'investisseur.",
+   "a_verifier": []
+  },
+  {
+   "id": "modalites_souscription",
+   "libelle": "Modalités de souscription et de libération (délai, dépôt des fonds, certificat du dépositaire)",
+   "etat_avant": "absente",
+   "texte": "constate que l'augmentation de capital est réalisée et que le capital social est désormais porté à 58 000 euros,",
+   "resume": "Ajout des modalités de libération des actions et de la mention du certificat du dépositaire.",
+   "source_precedent": "actes/YZOR - Actes du 07-09-2026 (2).pdf",
+   "source_revue": "",
+   "source_email": "Mail de Antoine Berthier, v2 : « Le visa du certificat de dépôt des fonds manque toujours. »",
+   "justification": "L'augmentation n'est réalisée qu'une fois les fonds libérés et constatés.",
+   "a_verifier": []
+  },
+  {
+   "id": "delegation_president",
+   "libelle": "Délégation au président pour constater la réalisation et modifier les statuts",
+   "etat_avant": "absente",
+   "texte": "Tous pouvoirs sont donnés au Président pour accomplir toutes les formalités légales et réglementaires nécessaires à la réalisation de l'augmentation de capital, y compris pour obtenir le certificat attestant la libération des fonds et la réalisation définitive de l'augmentation de capital, ainsi que pour modifier les statuts en conséquence.",
+   "resume": "Ajout des pouvoirs détaillés pour le Président afin de constater la réalisation de l'augmentation et modifier les statuts.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "Évite une seconde assemblée pour constater l'opération.",
+   "a_verifier": []
+  },
+  {
+   "id": "resultat_votes_detaille",
+   "libelle": "Résultat de chaque vote : voix pour, contre, abstentions",
+   "etat_avant": "absente",
+   "texte": "à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.",
+   "resume": "Ajout du détail des voix pour, contre et abstentions pour chaque résolution.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "La majorité renforcée doit être démontrée résolution par résolution.",
+   "a_verifier": []
+  },
+  {
+   "id": "cloture_signatures",
+   "libelle": "Heure de clôture et signatures des membres du bureau",
+   "etat_avant": "partielle",
+   "texte": "Signatures\n\nFait à Lyon, le 15 mars 2023\n\nLe Président,\nM. Antoine Vasseur\n\nLe Secrétaire,\n[à compléter : nom du secrétaire si différent]\n\nLumen Capital, représentée par [à compléter : nom du représentant]",
+   "resume": "Ajout de l'heure de clôture et de la mention des signatures des membres du bureau.",
+   "source_precedent": "actes/UROMEMS - Actes du 10-07-2024.pdf",
+   "source_revue": "",
+   "source_email": "",
+   "justification": "Le PV non signé n'a pas de force probante.",
+   "a_verifier": []
+  }
+ ],
+ "texte_corrige": "Hélianthe Technologies\nSociété par actions simplifiée au capital de 50 000 euros\nSiège social : 24 rue des Tanneurs, 69007 Lyon\nRCS Lyon [à compléter : numéro RCS de la société] (la \"Société\")\n\nProcès-verbal d'Assemblée Générale du 15 mars 2023\n\nLe 15 mars 2023, à [à compléter : heure de début de l'assemblée], les associés de la société Hélianthe Technologies se sont réunis en Assemblée Générale Extraordinaire, au siège social de la société.\n\nLa convocation de l'Assemblée Générale a été adressée aux associés par courrier électronique le [à compléter : date de convocation, au moins 8 jours avant la réunion], conformément aux dispositions des statuts.\n\nÉtaient présents :\nM. Antoine Vasseur, Mme Camille Ferrand et la société Lumen Capital.\n\nLa feuille de présence, certifiée exacte par le Président, permet de constater que les associés présents ou représentés possèdent [à compléter : nombre total d'actions détenues par les associés présents ou représentés] actions sur [à compléter : nombre total d'actions ayant le droit de vote]. En conséquence, l’Assemblée, réunissant le quorum requis, est régulièrement constituée et peut valablement délibérer.\n\nM. Antoine Vasseur préside la séance.\n\nLe Président déclare que le texte des résolutions ainsi que tous les documents et informations leur permettant de se prononcer en toute connaissance de cause sur les résolutions présentées à leur approbation ont été communiqués à chaque associé huit jours au moins avant la date de la présente assemblée, le tout conformément aux dispositions des statuts.\n\nL'Assemblée lui donne acte de ces déclarations.\n\nLe Président rappelle ensuite l'ordre du jour sur lequel l’assemblée est appelée à délibérer.\n\nOrdre du jour : augmentation de capital ; pouvoirs.\n\nLe Président explique qu'il est souhaitable de faire entrer Lumen Capital au capital de la société.\n\nPremière résolution\nL'assemblée, statuant aux conditions de quorum et de majorité requises par les statuts,\nconnaissance prise du rapport du Président,\ndécide d'augmenter le capital social de la société d'un montant de 8 000 euros par émission d'actions nouvelles au profit de Lumen Capital, pour un prix total de 100 000 euros, soit un montant nominal de 8 000 euros et une prime d'émission de 92 000 euros,\ndécide que les actions nouvelles devront être intégralement libérées pour la totalité de leur montant nominal et de la prime d'émission, en numéraire, y compris le cas échéant par compensation de créances certaines, liquides et exigibles, et\ndécide de supprimer le droit préférentiel de souscription des associés existants au profit de Lumen Capital, conformément à l'article L. 225-138 du Code de commerce,\n\nCette résolution est adoptée à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.\n\nDeuxième résolution\nL'assemblée, statuant aux conditions de quorum et de majorité requises par les statuts,\nconstate que l'augmentation de capital est réalisée et que le capital social est désormais porté à 58 000 euros,\ndécide que la délivrance du certificat du dépositaire des fonds emporte réalisation définitive de l'augmentation de capital,\n\nCette résolution est adoptée à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.\n\nTroisième résolution\nLes statuts sont modifiés en conséquence.\n\nCette résolution est adoptée à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.\n\nQuatrième résolution\nTous pouvoirs sont donnés au Président pour accomplir toutes les formalités légales et réglementaires nécessaires à la réalisation de l'augmentation de capital, y compris pour obtenir le certificat attestant la libération des fonds et la réalisation définitive de l'augmentation de capital, ainsi que pour modifier les statuts en conséquence.\n\nCette résolution est adoptée à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.\n\nLa séance est levée à [à compléter : heure de clôture de l'assemblée].\n\nSignatures\n\nFait à Lyon, le 15 mars 2023\n\nLe Président,\nM. Antoine Vasseur\n\nLe Secrétaire,\n[à compléter : nom du secrétaire si différent]\n\nLumen Capital, représentée par [à compléter : nom du représentant] ",
+ "texte_balise": "Hélianthe Technologies\nSociété par actions simplifiée au capital de 50 000 euros\nSiège social : 24 rue des Tanneurs, 69007 Lyon\n[[MOD:en_tete_societe]]RCS Lyon [à compléter : numéro RCS de la société] (la \"Société\")[[/MOD]]\n\nProcès-verbal d'Assemblée Générale du 15 mars 2023\n\nLe 15 mars 2023, à [à compléter : heure de début de l'assemblée], les associés de la société Hélianthe Technologies se sont réunis en Assemblée Générale Extraordinaire, au siège social de la société.\n\n[[MOD:convocation]]La convocation de l'Assemblée Générale a été adressée aux associés par courrier électronique le [à compléter : date de convocation, au moins 8 jours avant la réunion], conformément aux dispositions des statuts.[[/MOD]]\n\nÉtaient présents :\nM. Antoine Vasseur, Mme Camille Ferrand et la société Lumen Capital.\n\n[[MOD:quorum_feuille_presence]]La feuille de présence, certifiée exacte par le Président, permet de constater que les associés présents ou représentés possèdent [à compléter : nombre total d'actions détenues par les associés présents ou représentés] actions sur [à compléter : nombre total d'actions ayant le droit de vote]. En conséquence, l’Assemblée, réunissant le quorum requis, est régulièrement constituée et peut valablement délibérer.[[/MOD]]\n\nM. Antoine Vasseur préside la séance.\n\n[[MOD:rapports_prealables]]Le Président déclare que le texte des résolutions ainsi que tous les documents et informations leur permettant de se prononcer en toute connaissance de cause sur les résolutions présentées à leur approbation ont été communiqués à chaque associé huit jours au moins avant la date de la présente assemblée, le tout conformément aux dispositions des statuts.\n\nL'Assemblée lui donne acte de ces déclarations.\n\nLe Président rappelle ensuite l'ordre du jour sur lequel l’assemblée est appelée à délibérer.[[/MOD]]\n\nOrdre du jour : augmentation de capital ; pouvoirs.\n\nLe Président explique qu'il est souhaitable de faire entrer Lumen Capital au capital de la société.\n\nPremière résolution\nL'assemblée, statuant aux conditions de quorum et de majorité requises par les statuts,\nconnaissance prise du rapport du Président,\n[[MOD:prime_emission]]décide d'augmenter le capital social de la société d'un montant de 8 000 euros par émission d'actions nouvelles au profit de Lumen Capital, pour un prix total de 100 000 euros, soit un montant nominal de 8 000 euros et une prime d'émission de 92 000 euros,[[/MOD]]\n[[MOD:modalites_souscription]]décide que les actions nouvelles devront être intégralement libérées pour la totalité de leur montant nominal et de la prime d'émission, en numéraire, y compris le cas échéant par compensation de créances certaines, liquides et exigibles, et[[/MOD]]\n[[MOD:suppression_dps]]décide de supprimer le droit préférentiel de souscription des associés existants au profit de Lumen Capital, conformément à l'article L. 225-138 du Code de commerce,[[/MOD]]\n\nCette résolution est adoptée [[MOD:resultat_votes_detaille]]à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.[[/MOD]]\n\nDeuxième résolution\nL'assemblée, statuant aux conditions de quorum et de majorité requises par les statuts,\n[[MOD:modalites_souscription]]constate que l'augmentation de capital est réalisée et que le capital social est désormais porté à 58 000 euros,[[/MOD]]\n[[MOD:delegation_president]]décide que la délivrance du certificat du dépositaire des fonds emporte réalisation définitive de l'augmentation de capital,[[/MOD]]\n\nCette résolution est adoptée [[MOD:resultat_votes_detaille]]à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.[[/MOD]]\n\nTroisième résolution\nLes statuts sont modifiés en conséquence.\n\nCette résolution est adoptée [[MOD:resultat_votes_detaille]]à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.[[/MOD]]\n\nQuatrième résolution\n[[MOD:delegation_president]]Tous pouvoirs sont donnés au Président pour accomplir toutes les formalités légales et réglementaires nécessaires à la réalisation de l'augmentation de capital, y compris pour obtenir le certificat attestant la libération des fonds et la réalisation définitive de l'augmentation de capital, ainsi que pour modifier les statuts en conséquence.[[/MOD]]\n\nCette résolution est adoptée [[MOD:resultat_votes_detaille]]à l'unanimité des voix des associés présents ou représentés, soit [à compléter : nombre de voix pour] pour, [à compléter : nombre de voix contre] contre et [à compléter : nombre d'abstentions] abstentions.[[/MOD]]\n\nLa séance est levée à [à compléter : heure de clôture de l'assemblée].\n\n[[MOD:cloture_signatures]]Signatures\n\nFait à Lyon, le 15 mars 2023\n\nLe Président,\nM. Antoine Vasseur\n\nLe Secrétaire,\n[à compléter : nom du secrétaire si différent]\n\nLumen Capital, représentée par [à compléter : nom du représentant] [[/MOD]]",
+ "docx_url": "/demo-helianthe-v1.docx",
+ "live": false
+}

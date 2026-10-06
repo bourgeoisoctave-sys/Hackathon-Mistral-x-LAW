@@ -1,0 +1,60 @@
+.scene {
+  perspective: 600px;
+  display: inline-grid;
+  place-items: center;
+}
+
+.cluster {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 9s linear infinite;
+}
+
+.cube {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-style: preserve-3d;
+  animation: drift 2.6s ease-in-out infinite;
+}
+
+.face {
+  position: absolute;
+  inset: 0;
+  border-radius: 12%;
+  border: 1px solid rgba(160, 205, 255, 0.95);
+  background: linear-gradient(135deg, rgba(96, 165, 250, 0.92), rgba(29, 78, 216, 0.88));
+  box-shadow: inset 0 0 6px rgba(219, 234, 254, 0.7);
+}
+
+.face:nth-child(2) { background: linear-gradient(135deg, rgba(59, 130, 246, 0.9), rgba(30, 64, 175, 0.9)); }
+.face:nth-child(3) { background: linear-gradient(135deg, rgba(147, 197, 253, 0.95), rgba(59, 130, 246, 0.9)); }
+
+@keyframes spin {
+  from { transform: rotateX(-24deg) rotateY(0deg); }
+  to { transform: rotateX(-24deg) rotateY(360deg); }
+}
+
+/* Chaque cube s'écarte du centre le long de sa direction puis revient : le bloc « respire ». */
+@keyframes drift {
+  0%, 100% { transform: translate3d(var(--x), var(--y), var(--z)); }
+  50% { transform: translate3d(calc(var(--x) * 1.45), calc(var(--y) * 1.45), calc(var(--z) * 1.45)); }
+}
+
+/* Fin de recherche : chaque cube rentre au centre en rétrécissant, puis l'amas disparaît. */
+.imploding .cluster { animation: spin 9s linear infinite, vanish 0.9s ease-in forwards; }
+.imploding .cube { animation: implode 0.7s cubic-bezier(0.55, 0, 0.9, 0.4) forwards; }
+
+@keyframes implode {
+  from { transform: translate3d(var(--x), var(--y), var(--z)) scale(1); }
+  to { transform: translate3d(0, 0, 0) scale(0.15); }
+}
+
+@keyframes vanish {
+  0%, 70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cluster, .cube { animation: none; }
+}

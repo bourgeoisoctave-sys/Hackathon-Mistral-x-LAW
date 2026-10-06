@@ -1,0 +1,66 @@
+{
+  "_doc": "Grille de scoring des PV d'AG. Par type d'opération : clauses attendues, poids, clé (absence = -10), pourquoi (pédagogie junior). Score = 100 x somme(poids x présence) / somme(poids), puis malus. Exigence 'standard' : partielle vaut 0.5 ; 'max' : partielle vaut 0 et compte comme absente pour le malus des clauses clés.",
+  "exigences": {
+    "standard": {"partielle": 0.5, "malus_partielle_cle": false},
+    "max": {"partielle": 0.0, "malus_partielle_cle": true}
+  },
+  "malus_cle": -10,
+  "type_par_defaut": "AGO_annuelle",
+  "types_operation": {
+    "AGO_annuelle": {
+      "libelle": "Assemblée générale ordinaire annuelle (approbation des comptes, affectation du résultat)",
+      "clauses": [
+        {"id": "en_tete_societe", "libelle": "Identification de la société (dénomination, forme, capital, siège, RCS)", "poids": 5, "cle": false, "pourquoi": "Sans identification complète, le PV n'est pas rattachable à la société lors du dépôt au greffe."},
+        {"id": "convocation", "libelle": "Convocation : date d'envoi, mode, respect du délai", "poids": 8, "cle": true, "pourquoi": "Une convocation irrégulière rend l'assemblée annulable ; c'est le premier point attaqué en contentieux."},
+        {"id": "quorum_feuille_presence", "libelle": "Quorum constaté avec chiffres (titres présents/représentés, total, %) et feuille de présence", "poids": 10, "cle": true, "pourquoi": "Le quorum conditionne la validité des délibérations ; les chiffres prouvent qu'il est atteint."},
+        {"id": "bureau", "libelle": "Composition du bureau (président de séance, scrutateurs, secrétaire)", "poids": 5, "cle": false, "pourquoi": "Le bureau authentifie les débats et signe le PV."},
+        {"id": "documents_mis_a_disposition", "libelle": "Documents mis à disposition (comptes, rapport de gestion, rapport du CAC)", "poids": 6, "cle": false, "pourquoi": "Prouve le respect du droit d'information des associés avant le vote."},
+        {"id": "ordre_du_jour", "libelle": "Ordre du jour, identique à celui de la convocation", "poids": 8, "cle": true, "pourquoi": "L'assemblée ne peut délibérer que sur les points convoqués."},
+        {"id": "rapport_gestion", "libelle": "Lecture ou mention du rapport de gestion (et du rapport du CAC s'il y a lieu)", "poids": 5, "cle": false, "pourquoi": "Trace que les associés ont été éclairés avant d'approuver les comptes."},
+        {"id": "approbation_comptes", "libelle": "Résolution d'approbation des comptes de l'exercice", "poids": 10, "cle": true, "pourquoi": "C'est l'objet même de l'AGO annuelle ; sans elle, le dépôt des comptes est impossible."},
+        {"id": "affectation_resultat", "libelle": "Résolution d'affectation du résultat (report, réserves, dividendes)", "poids": 10, "cle": true, "pourquoi": "Obligatoire après approbation des comptes ; conditionne la distribution ou la mise en réserve."},
+        {"id": "quitus", "libelle": "Quitus aux dirigeants", "poids": 5, "cle": false, "pourquoi": "Décharge de gestion des dirigeants pour l'exercice ; souvent négociée avec les minoritaires."},
+        {"id": "conventions_reglementees", "libelle": "Conventions réglementées : rapport spécial et vote", "poids": 6, "cle": false, "pourquoi": "Protège la société des conflits d'intérêts des dirigeants et associés."},
+        {"id": "resultat_votes_detaille", "libelle": "Résultat de chaque vote : voix pour, contre, abstentions", "poids": 10, "cle": true, "pourquoi": "Sans décompte, impossible de vérifier la majorité ; 'adoptée à l'unanimité' se réserve au cas sans voix contre ni abstention."},
+        {"id": "pouvoirs_formalites", "libelle": "Pouvoirs pour l'accomplissement des formalités", "poids": 5, "cle": false, "pourquoi": "Permet au porteur de copie d'effectuer le dépôt au greffe."},
+        {"id": "cloture_signatures", "libelle": "Heure de clôture et signatures des membres du bureau", "poids": 7, "cle": true, "pourquoi": "Le PV non signé n'a pas de force probante."}
+      ]
+    },
+    "AGE_modification_statuts": {
+      "libelle": "Assemblée générale extraordinaire modifiant les statuts (hors opération sur le capital)",
+      "clauses": [
+        {"id": "en_tete_societe", "libelle": "Identification de la société (dénomination, forme, capital, siège, RCS)", "poids": 5, "cle": false, "pourquoi": "Le PV sera déposé au greffe avec les statuts mis à jour."},
+        {"id": "convocation", "libelle": "Convocation : date d'envoi, mode, respect du délai", "poids": 8, "cle": true, "pourquoi": "Une convocation irrégulière rend l'assemblée annulable."},
+        {"id": "quorum_feuille_presence", "libelle": "Quorum renforcé constaté avec chiffres et feuille de présence", "poids": 10, "cle": true, "pourquoi": "L'AGE exige un quorum plus élevé que l'AGO ; il doit être prouvé."},
+        {"id": "bureau", "libelle": "Composition du bureau", "poids": 5, "cle": false, "pourquoi": "Le bureau authentifie les débats et signe le PV."},
+        {"id": "ordre_du_jour", "libelle": "Ordre du jour, identique à celui de la convocation", "poids": 8, "cle": true, "pourquoi": "Toute modification statutaire non inscrite à l'ordre du jour est nulle."},
+        {"id": "rapport_motifs", "libelle": "Rapport du président / de la gérance exposant les motifs de la modification", "poids": 6, "cle": false, "pourquoi": "Éclaire le vote et sert de référence en cas de litige sur l'intention."},
+        {"id": "texte_resolution", "libelle": "Texte intégral de la résolution de modification", "poids": 10, "cle": true, "pourquoi": "Le texte voté est celui qui s'impose ; un résumé ne suffit pas."},
+        {"id": "majorite_requise", "libelle": "Mention de la majorité requise (statutaire ou légale) et de son respect", "poids": 10, "cle": true, "pourquoi": "La modification des statuts suppose une majorité renforcée ; le PV doit montrer qu'elle est atteinte."},
+        {"id": "article_statuts_modifie", "libelle": "Nouvelle rédaction de l'article des statuts modifié", "poids": 10, "cle": true, "pourquoi": "C'est ce texte qui sera inséré dans les statuts mis à jour déposés au greffe."},
+        {"id": "resultat_votes_detaille", "libelle": "Résultat de chaque vote : voix pour, contre, abstentions", "poids": 10, "cle": true, "pourquoi": "Sans décompte, la majorité renforcée est invérifiable."},
+        {"id": "pouvoirs_formalites", "libelle": "Pouvoirs pour l'accomplissement des formalités", "poids": 6, "cle": false, "pourquoi": "Dépôt au greffe, publication dans un journal d'annonces légales."},
+        {"id": "cloture_signatures", "libelle": "Heure de clôture et signatures des membres du bureau", "poids": 7, "cle": true, "pourquoi": "Le PV non signé n'a pas de force probante."}
+      ]
+    },
+    "AGE_levee_de_fonds": {
+      "libelle": "Assemblée générale extraordinaire d'augmentation de capital (levée de fonds, entrée d'investisseurs)",
+      "clauses": [
+        {"id": "en_tete_societe", "libelle": "Identification de la société (dénomination, forme, capital avant opération, siège, RCS)", "poids": 5, "cle": false, "pourquoi": "Le capital avant opération est la référence de l'augmentation."},
+        {"id": "convocation", "libelle": "Convocation : date d'envoi, mode, respect du délai", "poids": 8, "cle": true, "pourquoi": "Une convocation irrégulière rend l'augmentation annulable, ce qu'aucun investisseur n'accepte."},
+        {"id": "quorum_feuille_presence", "libelle": "Quorum renforcé constaté avec chiffres et feuille de présence", "poids": 10, "cle": true, "pourquoi": "Les investisseurs exigent la preuve que l'AGE pouvait valablement décider."},
+        {"id": "ordre_du_jour", "libelle": "Ordre du jour, identique à celui de la convocation", "poids": 8, "cle": true, "pourquoi": "L'augmentation et la suppression du DPS doivent y figurer expressément."},
+        {"id": "rapports_prealables", "libelle": "Rapport du président (et du CAC si suppression du DPS) sur l'opération", "poids": 6, "cle": false, "pourquoi": "Justifie le prix d'émission et la suppression du DPS ; protège contre une action en nullité."},
+        {"id": "montant_augmentation", "libelle": "Montant nominal de l'augmentation, nombre et valeur nominale des titres émis", "poids": 10, "cle": true, "pourquoi": "Définit l'opération ; toute erreur se répercute sur la table de capitalisation."},
+        {"id": "prime_emission", "libelle": "Prix de souscription et prime d'émission", "poids": 8, "cle": true, "pourquoi": "La prime matérialise la valorisation négociée avec les investisseurs."},
+        {"id": "suppression_dps", "libelle": "Suppression du droit préférentiel de souscription au profit de bénéficiaires dénommés", "poids": 10, "cle": true, "pourquoi": "Sans suppression du DPS, les associés existants peuvent souscrire en priorité et l'entrée de l'investisseur échoue."},
+        {"id": "modalites_souscription", "libelle": "Modalités de souscription et de libération (délai, dépôt des fonds, certificat du dépositaire)", "poids": 8, "cle": true, "pourquoi": "L'augmentation n'est réalisée qu'une fois les fonds libérés et constatés."},
+        {"id": "delegation_president", "libelle": "Délégation au président pour constater la réalisation et modifier les statuts", "poids": 6, "cle": false, "pourquoi": "Évite une seconde assemblée pour constater l'opération."},
+        {"id": "modification_statuts_correlative", "libelle": "Modification corrélative des articles capital et apports", "poids": 8, "cle": true, "pourquoi": "Les statuts doivent refléter le nouveau capital pour le dépôt au greffe."},
+        {"id": "resultat_votes_detaille", "libelle": "Résultat de chaque vote : voix pour, contre, abstentions", "poids": 10, "cle": true, "pourquoi": "La majorité renforcée doit être démontrée résolution par résolution."},
+        {"id": "pouvoirs_formalites", "libelle": "Pouvoirs pour l'accomplissement des formalités", "poids": 5, "cle": false, "pourquoi": "Dépôt au greffe, annonce légale, mise à jour du Kbis."},
+        {"id": "cloture_signatures", "libelle": "Heure de clôture et signatures des membres du bureau", "poids": 7, "cle": true, "pourquoi": "Le PV non signé n'a pas de force probante."}
+      ]
+    }
+  }
+}

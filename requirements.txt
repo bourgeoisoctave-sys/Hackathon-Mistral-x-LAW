@@ -1,0 +1,5 @@
+mistralai>=1.0
+chromadb>=0.5
+pymupdf>=1.24
+mcp>=2
+python-docx>=1.1
