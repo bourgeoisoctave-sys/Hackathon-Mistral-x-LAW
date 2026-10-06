@@ -1,0 +1,1218 @@
+{
+  "pv": "pv_junior_levee_de_fonds.pdf",
+  "pv_text": "NOVATECH SAS\nSociété par actions simplifiée au capital de 100 000 euros\nSiège social : 12 rue de l'Innovation, 75011 Paris\nRCS Paris 912 345 678\nPROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU 28 SEPTEMBRE 2026\nL'an deux mille vingt-six, le vingt-huit septembre à dix heures, les associés de la société NOVATECH SAS se sont\nréunis en assemblée générale extraordinaire au siège social, sur convocation du Président adressée par courriel\nle 11 septembre 2026.\nL'assemblée est présidée par Monsieur Marc Lefevre, Président. Madame Julie Bernard est désignée secrétaire.\nLa feuille de présence, certifiée exacte par le bureau, permet de constater que les associés présents ou\nreprésentés possèdent 100 000 actions sur les 100 000 actions ayant droit de vote. Le quorum étant atteint,\nl'assemblée peut valablement délibérer.\nOrdre du jour :\n- Augmentation de capital par émission d'actions nouvelles ;\n- Modification corrélative des statuts ;\n- Pouvoirs pour les formalités.\nPREMIERE RESOLUTION\nL'assemblée générale décide d'augmenter le capital social d'une somme de 200 000 euros par émission de 200\n000 actions nouvelles d'une valeur nominale de 1 euro chacune, émises au prix de 50 euros, soit avec une prime\nd'émission de 49 euros par action.\nCette résolution est adoptée.\nDEUXIEME RESOLUTION\nL'assemblée générale décide de modifier en conséquence l'article 7 des statuts relatif au capital social.\nCette résolution est adoptée.\nTROISIEME RESOLUTION\nL'assemblée générale confère tous pouvoirs au porteur d'une copie ou d'un extrait du présent procès-verbal pour\naccomplir les formalités.\nCette résolution est adoptée.\nL'ordre du jour étant épuisé, la séance est levée à onze heures.\nLe Président                                   La Secrétaire",
+  "type_operation": "AGE_levee_de_fonds",
+  "type_libelle": "Assemblée générale extraordinaire d'augmentation de capital (levée de fonds, entrée d'investisseurs)",
+  "type_detecte": true,
+  "type_justification": "L'assemblée porte principalement sur une augmentation de capital par émission d'actions nouvelles.",
+  "exigence": "max",
+  "clauses_attendues": [
+    {
+      "id": "en_tete_societe",
+      "libelle": "Identification de la société (dénomination, forme, capital avant opération, siège, RCS)",
+      "poids": 5,
+      "cle": false,
+      "pourquoi": "Le capital avant opération est la référence de l'augmentation."
+    },
+    {
+      "id": "convocation",
+      "libelle": "Convocation : date d'envoi, mode, respect du délai",
+      "poids": 8,
+      "cle": true,
+      "pourquoi": "Une convocation irrégulière rend l'augmentation annulable, ce qu'aucun investisseur n'accepte."
+    },
+    {
+      "id": "quorum_feuille_presence",
+      "libelle": "Quorum renforcé constaté avec chiffres et feuille de présence",
+      "poids": 10,
+      "cle": true,
+      "pourquoi": "Les investisseurs exigent la preuve que l'AGE pouvait valablement décider."
+    },
+    {
+      "id": "ordre_du_jour",
+      "libelle": "Ordre du jour, identique à celui de la convocation",
+      "poids": 8,
+      "cle": true,
+      "pourquoi": "L'augmentation et la suppression du DPS doivent y figurer expressément."
+    },
+    {
+      "id": "rapports_prealables",
+      "libelle": "Rapport du président (et du CAC si suppression du DPS) sur l'opération",
+      "poids": 6,
+      "cle": false,
+      "pourquoi": "Justifie le prix d'émission et la suppression du DPS ; protège contre une action en nullité."
+    },
+    {
+      "id": "montant_augmentation",
+      "libelle": "Montant nominal de l'augmentation, nombre et valeur nominale des titres émis",
+      "poids": 10,
+      "cle": true,
+      "pourquoi": "Définit l'opération ; toute erreur se répercute sur la table de capitalisation."
+    },
+    {
+      "id": "prime_emission",
+      "libelle": "Prix de souscription et prime d'émission",
+      "poids": 8,
+      "cle": true,
+      "pourquoi": "La prime matérialise la valorisation négociée avec les investisseurs."
+    },
+    {
+      "id": "suppression_dps",
+      "libelle": "Suppression du droit préférentiel de souscription au profit de bénéficiaires dénommés",
+      "poids": 10,
+      "cle": true,
+      "pourquoi": "Sans suppression du DPS, les associés existants peuvent souscrire en priorité et l'entrée de l'investisseur échoue."
+    },
+    {
+      "id": "modalites_souscription",
+      "libelle": "Modalités de souscription et de libération (délai, dépôt des fonds, certificat du dépositaire)",
+      "poids": 8,
+      "cle": true,
+      "pourquoi": "L'augmentation n'est réalisée qu'une fois les fonds libérés et constatés."
+    },
+    {
+      "id": "delegation_president",
+      "libelle": "Délégation au président pour constater la réalisation et modifier les statuts",
+      "poids": 6,
+      "cle": false,
+      "pourquoi": "Évite une seconde assemblée pour constater l'opération."
+    },
+    {
+      "id": "modification_statuts_correlative",
+      "libelle": "Modification corrélative des articles capital et apports",
+      "poids": 8,
+      "cle": true,
+      "pourquoi": "Les statuts doivent refléter le nouveau capital pour le dépôt au greffe."
+    },
+    {
+      "id": "resultat_votes_detaille",
+      "libelle": "Résultat de chaque vote : voix pour, contre, abstentions",
+      "poids": 10,
+      "cle": true,
+      "pourquoi": "La majorité renforcée doit être démontrée résolution par résolution."
+    },
+    {
+      "id": "pouvoirs_formalites",
+      "libelle": "Pouvoirs pour l'accomplissement des formalités",
+      "poids": 5,
+      "cle": false,
+      "pourquoi": "Dépôt au greffe, annonce légale, mise à jour du Kbis."
+    },
+    {
+      "id": "cloture_signatures",
+      "libelle": "Heure de clôture et signatures des membres du bureau",
+      "poids": 7,
+      "cle": true,
+      "pourquoi": "Le PV non signé n'a pas de force probante."
+    }
+  ],
+  "clauses_detectees": [
+    {
+      "id": "en_tete_societe",
+      "etat": "presente",
+      "extrait": "NOVATECH SAS Société par actions simplifiée au capital de 100 000 euros Siège social : 12 rue de l'Innovation, 75011 Paris RCS Paris 912 345 678",
+      "commentaire": ""
+    },
+    {
+      "id": "convocation",
+      "etat": "partielle",
+      "extrait": "sur convocation du Président adressée par courriel le 11 septembre 2026",
+      "commentaire": "Mode et date d'envoi mentionnés, mais pas de vérification explicite du respect du délai."
+    },
+    {
+      "id": "quorum_feuille_presence",
+      "etat": "presente",
+      "extrait": "La feuille de présence, certifiée exacte par le bureau, permet de constater que les associés présents ou représentés possèdent 100 000 actions sur les 100 000 actions ayant droit de vote. Le quorum étant atteint,",
+      "commentaire": ""
+    },
+    {
+      "id": "ordre_du_jour",
+      "etat": "presente",
+      "extrait": "Ordre du jour : - Augmentation de capital par émission d'actions nouvelles ; - Modification corrélative des statuts ; - Pouvoirs pour les formalités.",
+      "commentaire": ""
+    },
+    {
+      "id": "rapports_prealables",
+      "etat": "absente",
+      "extrait": "",
+      "commentaire": ""
+    },
+    {
+      "id": "montant_augmentation",
+      "etat": "presente",
+      "extrait": "L'assemblée générale décide d'augmenter le capital social d'une somme de 200 000 euros par émission de 200 000 actions nouvelles d'une valeur nominale de 1 euro chacune",
+      "commentaire": ""
+    },
+    {
+      "id": "prime_emission",
+      "etat": "presente",
+      "extrait": "émises au prix de 50 euros, soit avec une prime d'émission de 49 euros par action",
+      "commentaire": ""
+    },
+    {
+      "id": "suppression_dps",
+      "etat": "absente",
+      "extrait": "",
+      "commentaire": ""
+    },
+    {
+      "id": "modalites_souscription",
+      "etat": "absente",
+      "extrait": "",
+      "commentaire": ""
+    },
+    {
+      "id": "delegation_president",
+      "etat": "absente",
+      "extrait": "",
+      "commentaire": ""
+    },
+    {
+      "id": "modification_statuts_correlative",
+      "etat": "presente",
+      "extrait": "L'assemblée générale décide de modifier en conséquence l'article 7 des statuts relatif au capital social.",
+      "commentaire": ""
+    },
+    {
+      "id": "resultat_votes_detaille",
+      "etat": "absente",
+      "extrait": "",
+      "commentaire": ""
+    },
+    {
+      "id": "pouvoirs_formalites",
+      "etat": "presente",
+      "extrait": "L'assemblée générale confère tous pouvoirs au porteur d'une copie ou d'un extrait du présent procès-verbal pour accomplir les formalités.",
+      "commentaire": ""
+    },
+    {
+      "id": "cloture_signatures",
+      "etat": "partielle",
+      "extrait": "L'ordre du jour étant épuisé, la séance est levée à onze heures. Le Président                                   La Secrétaire",
+      "commentaire": "Heure de clôture mentionnée, mais signatures non explicitement identifiées comme celles des membres du bureau."
+    }
+  ],
+  "score": {
+    "brut": 50,
+    "malus_cles": -50,
+    "final": 0,
+    "cles_manquantes": [
+      "convocation",
+      "suppression_dps",
+      "modalites_souscription",
+      "resultat_votes_detaille",
+      "cloture_signatures"
+    ],
+    "exigence": "max"
+  },
+  "sections": [
+    {
+      "titre": "En-tête et identification de la société",
+      "extrait": "NOVATECH SAS\nSociété par actions simplifiée au capital de 100 000 euros\nSiège social : 12 rue de l'Innovation, 75011 Paris\nRCS Paris 912 345 678\nPROCES-VERBAL DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE DU 28 SEPTEMBRE 2026",
+      "requetes": [
+        "Quelles mentions obligatoires doivent figurer dans l'en-tête d'un PV d'AG ?",
+        "Faut-il préciser le type d'assemblée (ordinaire ou extraordinaire) dans l'en-tête ?",
+        "Est-il nécessaire d'indiquer le numéro RCS et le siège social ?"
+      ],
+      "passages": [
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.173
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.179
+        },
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.196
+        },
+        {
+          "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+          "source": "mails/2026-09-17_alpha_term-sheet.eml",
+          "page": 1,
+          "distance": 0.239
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.242
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.256
+        }
+      ]
+    },
+    {
+      "titre": "Convocation",
+      "extrait": "L'an deux mille vingt-six, le vingt-huit septembre à dix heures, les associés de la société NOVATECH SAS se sont réunis en assemblée générale extraordinaire au siège social, sur convocation du Président adressée par courriel le 11 septembre 2026.",
+      "requetes": [
+        "Quel est le délai légal minimal pour convoquer une AG extraordinaire en SAS ?",
+        "La convocation par courriel est-elle valable pour une AG extraordinaire ?",
+        "Faut-il mentionner le mode de convocation dans le PV ?"
+      ],
+      "passages": [
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.193
+        },
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.2
+        },
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.204
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.242
+        },
+        {
+          "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+          "source": "mails/2026-09-16_lefevre_delegation.eml",
+          "page": 1,
+          "distance": 0.247
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.253
+        }
+      ]
+    },
+    {
+      "titre": "Bureau de l'assemblée",
+      "extrait": "L'assemblée est présidée par Monsieur Marc Lefevre, Président. Madame Julie Bernard est désignée secrétaire.",
+      "requetes": [
+        "Qui peut présider une AG en SAS ?",
+        "Est-il obligatoire de désigner un secrétaire de séance ?",
+        "Faut-il mentionner les noms des membres du bureau dans le PV ?"
+      ],
+      "passages": [
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.191
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.198
+        },
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.221
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.26
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.272
+        },
+        {
+          "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+          "source": "mails/2026-09-14_me-dupont_dps.eml",
+          "page": 1,
+          "distance": 0.279
+        }
+      ]
+    },
+    {
+      "titre": "Quorum et feuille de présence",
+      "extrait": "La feuille de présence, certifiée exacte par le bureau, permet de constater que les associés présents ou représentés possèdent 100 000 actions sur les 100 000 actions ayant droit de vote. Le quorum étant atteint, l'assemblée peut valablement délibérer.",
+      "requetes": [
+        "Quel est le quorum requis pour une AG extraordinaire en SAS ?",
+        "Comment doit être certifiée la feuille de présence ?",
+        "Faut-il indiquer le nombre total d'actions avec droit de vote ?"
+      ],
+      "passages": [
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.221
+        },
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.223
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.23
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.26
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.262
+        },
+        {
+          "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+          "source": "mails/2026-09-16_lefevre_delegation.eml",
+          "page": 1,
+          "distance": 0.286
+        }
+      ]
+    },
+    {
+      "titre": "Ordre du jour",
+      "extrait": "Ordre du jour :\n- Augmentation de capital par émission d'actions nouvelles ;\n- Modification corrélative des statuts ;\n- Pouvoirs pour les formalités.",
+      "requetes": [
+        "L'ordre du jour doit-il être joint à la convocation ?",
+        "Faut-il mentionner l'ordre du jour dans le PV ?",
+        "Est-il possible d'ajouter des points à l'ordre du jour en cours d'AG ?"
+      ],
+      "passages": [
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.199
+        },
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.209
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.21
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.251
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.266
+        }
+      ]
+    },
+    {
+      "titre": "Première résolution - Augmentation de capital",
+      "extrait": "PREMIERE RESOLUTION\nL'assemblée générale décide d'augmenter le capital social d'une somme de 200 000 euros par émission de 200 000 actions nouvelles d'une valeur nominale de 1 euro chacune, émises au prix de 50 euros, soit avec une prime d'émission de 49 euros par action.\nCette résolution est adoptée.",
+      "requetes": [
+        "Quelles mentions obligatoires doivent figurer dans une résolution d'augmentation de capital ?",
+        "Faut-il préciser le mode de libération des actions nouvelles ?",
+        "Comment doit être formulé le résultat du vote ?"
+      ],
+      "passages": [
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.209
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.212
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.219
+        },
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.22
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.226
+        },
+        {
+          "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+          "source": "mails/2026-09-14_me-dupont_dps.eml",
+          "page": 1,
+          "distance": 0.254
+        }
+      ]
+    },
+    {
+      "titre": "Deuxième résolution - Modification des statuts",
+      "extrait": "DEUXIEME RESOLUTION\nL'assemblée générale décide de modifier en conséquence l'article 7 des statuts relatif au capital social.\nCette résolution est adoptée.",
+      "requetes": [
+        "Faut-il préciser les modifications exactes apportées aux statuts ?",
+        "Est-il nécessaire de joindre le texte des statuts modifiés au PV ?",
+        "Comment doit être formulé le résultat du vote pour une modification de statuts ?"
+      ],
+      "passages": [
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.172
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.179
+        },
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.183
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.222
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.238
+        },
+        {
+          "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+          "source": "mails/2026-09-14_me-dupont_dps.eml",
+          "page": 1,
+          "distance": 0.249
+        }
+      ]
+    },
+    {
+      "titre": "Troisième résolution - Pouvoirs pour les formalités",
+      "extrait": "TROISIEME RESOLUTION\nL'assemblée générale confère tous pouvoirs au porteur d'une copie ou d'un extrait du présent procès-verbal pour accomplir les formalités.\nCette résolution est adoptée.",
+      "requetes": [
+        "Quelle est la portée des pouvoirs conférés pour les formalités ?",
+        "Faut-il désigner nommément le mandataire pour les formalités ?",
+        "Comment doit être formulé le résultat du vote pour une délégation de pouvoirs ?"
+      ],
+      "passages": [
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.204
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.229
+        },
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.241
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.243
+        },
+        {
+          "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.257
+        },
+        {
+          "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+          "source": "mails/2026-09-16_lefevre_delegation.eml",
+          "page": 1,
+          "distance": 0.273
+        }
+      ]
+    },
+    {
+      "titre": "Clôture et signatures",
+      "extrait": "L'ordre du jour étant épuisé, la séance est levée à onze heures.\nLe Président                                   La Secrétaire",
+      "requetes": [
+        "Faut-il mentionner l'heure de clôture de l'AG ?",
+        "Qui doit signer le PV d'AG en SAS ?",
+        "Est-il obligatoire de dater les signatures ?"
+      ],
+      "passages": [
+        {
+          "text": "CHECK-LIST JURIDIQUE PV D'AG (SAS / SA)\n- Verifier que l'ordre du jour du PV est identique a celui de la convocation.\n- Verifier que les documents mis a disposition des actionnaires (comptes annuels, rapport de gestion,\nrapport du commissaire aux comptes) sont listes.\n- Toute resolution modifiant les statuts requiert la majorite renforcee prevue aux statuts ; le PV doit\nmentionner la majorite applicable.\n- Le PV doit etre etabli dans le mois suivant l'assemblee.",
+          "source": "juridique/checklist_juridique.pdf",
+          "page": 1,
+          "distance": 0.195
+        },
+        {
+          "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+          "source": "mails/2026-09-16_lefevre_delegation.eml",
+          "page": 1,
+          "distance": 0.214
+        },
+        {
+          "text": "GUIDE INTERNE DE REDACTION DES PROCES-VERBAUX D'ASSEMBLEE GENERALE\n1. Convocation. Le PV rappelle la date d'envoi des convocations, le mode d'envoi (lettre recommandee ou\ncourriel avec accuse) et le delai legal de quinze jours respecte.\n2. Quorum. Le PV constate expressement le quorum en indiquant le nombre d'actions presentes ou\nrepresentees, le total des actions ayant droit de vote et le pourcentage obtenu. La feuille de presence est\nannexee au PV.\n3. Bureau. L'assemblee est presidee par le president du conseil ; le PV nomme le president de seance, les\ndeux scrutateurs et le secretaire.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 1,
+          "distance": 0.222
+        },
+        {
+          "text": "4. Resolutions et votes. Pour chaque resolution, le PV indique le texte integral de la resolution, puis le\nresultat du vote avec le nombre de voix pour, le nombre de voix contre et le nombre d'abstentions. La\nmention « adoptee a l'unanimite » est reservee au cas ou aucune voix contre ni abstention n'est exprimee.\n5. Cloture et signatures. Le PV mentionne l'heure de cloture et est signe par les membres du bureau\n(president, scrutateurs, secretaire). Il est consigne sur le registre des assemblees cote et paraphe.",
+          "source": "guides_internes/guide_redaction_pv.pdf",
+          "page": 2,
+          "distance": 0.228
+        },
+        {
+          "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+          "source": "reunions/2026-09-11_call_alpha-capital.txt",
+          "page": 1,
+          "distance": 0.246
+        },
+        {
+          "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+          "source": "mails/2026-09-17_alpha_term-sheet.eml",
+          "page": 1,
+          "distance": 0.252
+        }
+      ]
+    }
+  ],
+  "dossier": "novatech",
+  "contexte_dossier": {
+    "en_tete_societe": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.196
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.197
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.216
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.218
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.227
+      }
+    ],
+    "convocation": [
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.278
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.282
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.298
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.3
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.301
+      }
+    ],
+    "quorum_feuille_presence": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.28
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.301
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.323
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.331
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.332
+      }
+    ],
+    "ordre_du_jour": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.229
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.242
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.264
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.265
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.274
+      }
+    ],
+    "rapports_prealables": [
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.244
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.247
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.248
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.285
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.295
+      }
+    ],
+    "montant_augmentation": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.229
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.23
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.233
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.234
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.25
+      }
+    ],
+    "prime_emission": [
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.262
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.275
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.276
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.278
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.295
+      }
+    ],
+    "suppression_dps": [
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.214
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.241
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.261
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.262
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.276
+      }
+    ],
+    "modalites_souscription": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.226
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.23
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.241
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.244
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.249
+      }
+    ],
+    "delegation_president": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.219
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.242
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.247
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.247
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.267
+      }
+    ],
+    "modification_statuts_correlative": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.243
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.243
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.262
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.262
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.286
+      }
+    ],
+    "resultat_votes_detaille": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.238
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.249
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.255
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.257
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.268
+      }
+    ],
+    "pouvoirs_formalites": [
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.287
+      },
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.294
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.298
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.303
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.308
+      }
+    ],
+    "cloture_signatures": [
+      {
+        "citation": "Mail de Marc Lefevre <m.lefevre@novatech-exemple.fr>, 2026-09-16 — RE: NOVATECH - calendrier de closing",
+        "text": "Objet : RE: NOVATECH - calendrier de closing\nClaire,\nPour le closing nous voulons éviter une seconde AG. Est-ce que le PV peut donner délégation au Président pour constater la réalisation de l'augmentation de capital et modifier les statuts en conséquence ?\nLes fonds d'Alpha seront déposés chez le notaire le 25/09, certificat du dépositaire à suivre.\nMarc",
+        "source": "mails/2026-09-16_lefevre_delegation.eml",
+        "source_type": "mail",
+        "date": "2026-09-16",
+        "distance": 0.23
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": ".\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés. [14:13] Me Dupont :\nOui, délégation au Président pour constater la réalisation définitive et modifier les statuts.\nLes fonds passent par un dépositaire, on a besoin du certificat.\n[14:20] Sophie Martin :\nDernier point, nos juristes veulent le détail des votes par résolution, pour vérifier les deux tiers.\n[14:21] Me Dupont :\nStandard.\nLe stagiaire prépare le projet de PV pour la semaine prochaine.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.231
+      },
+      {
+        "citation": "Réunion 2026-09-11 — 2026-09-11_call_alpha-capital",
+        "text": "Call NOVATECH x Alpha Capital — 11 septembre 2026, 14h00. Participants : Me Claire Dupont (cabinet), Marc Lefevre (NOVATECH, Président), Sophie Martin (Alpha Capital), stagiaire.\n[14:02] Sophie Martin :\nOn investit 10 millions, à condition d'être les seuls à souscrire.\nDonc il nous faut la suppression du DPS à notre profit, nommément.\nOn a été échaudés sur un deal où les historiques ont exercé leur droit.\n[14:05] Marc Lefevre :\nLes associés historiques sont d'accord, ils ne veulent pas remettre au pot.\n[14:06] Me Dupont :\nDonc résolution de suppression du droit préférentiel de souscription au profit d'Alpha Capital, bénéficiaire dénommé.\nIl faudra un rapport du Président sur les motifs et un rapport du commissaire aux comptes sur le prix.\nVous êtes à 50 euros l'action ?\n[14:08] Sophie Martin :\n50 euros, dont 49 de prime.\nPrix ferme, pas de ratchet, on en a discuté hier.\n[14:12] Marc Lefevre :\nEt pour le closing, on peut éviter une deuxième assemblée ?\nOn est pressés.",
+        "source": "reunions/2026-09-11_call_alpha-capital.txt",
+        "source_type": "reunion",
+        "date": "2026-09-11",
+        "distance": 0.266
+      },
+      {
+        "citation": "Mail de Me Claire Dupont <c.dupont@cabinet-exemple.fr>, 2026-09-14 — NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital",
+        "text": "Objet : NOVATECH - levée de fonds - suppression du DPS au profit d'Alpha Capital\nBonjour,\nSuite au call de vendredi avec Alpha Capital, confirmation des points à reprendre dans le PV d'AGE :\n1. Suppression du droit préférentiel de souscription au profit d'Alpha Capital SAS, bénéficiaire dénommé. C'est une condition suspensive du term sheet, pas une option : sans cette résolution l'opération ne se fait pas.\n2. Prix de souscription 50 EUR par action, dont 49 EUR de prime d'émission (valeur nominale 1 EUR). Alpha a refusé toute clause de ratchet, le prix est ferme.\n3. Rapport du Président sur les motifs de la suppression du DPS et rapport du CAC sur le prix : à viser dans le PV.\nMerci de me renvoyer un projet d'ici mercredi.\nCordialement,\nClaire Dupont\nAvocate associée",
+        "source": "mails/2026-09-14_me-dupont_dps.eml",
+        "source_type": "mail",
+        "date": "2026-09-14",
+        "distance": 0.275
+      },
+      {
+        "citation": "Mail de Sophie Martin <s.martin@alpha-capital-exemple.com>, 2026-09-17 — NOVATECH - term sheet signé - points PV",
+        "text": "Objet : NOVATECH - term sheet signé - points PV\nMaître,\nTerm sheet signé ce matin. Pour le PV d'AGE, nous attendons explicitement :\n- 200 000 actions nouvelles de 1 EUR de nominal, soit 200 000 EUR d'augmentation de capital, prime d'émission 9 800 000 EUR ;\n- la résolution de suppression du DPS à notre profit ;\n- le résultat des votes résolution par résolution, nos juristes vérifient la majorité des deux tiers.\nBien à vous,\nSophie Martin\nAlpha Capital",
+        "source": "mails/2026-09-17_alpha_term-sheet.eml",
+        "source_type": "mail",
+        "date": "2026-09-17",
+        "distance": 0.282
+      }
+    ]
+  }
+}
